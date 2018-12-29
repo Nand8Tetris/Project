@@ -1,0 +1,24 @@
+CHIP check0 {
+    IN  
+        rout[16];
+
+    OUT 
+        zr;
+
+    PARTS:
+    And(a=rout[0],b=rout[1],out=pre1);
+    And(a=pre1,b=rout[2],out=pre2);
+    And(a=pre2,b=rout[3],out=pre3);
+    And(a=pre3,b=rout[4],out=pre4);
+    And(a=pre4,b=rout[5],out=pre5);
+    And(a=pre5,b=rout[6],out=pre6);
+    And(a=pre6,b=rout[7],out=pre7);
+    And(a=pre7,b=rout[8],out=pre8);
+    And(a=pre8,b=rout[9],out=pre9);
+    And(a=pre9,b=rout[10],out=pre10);
+    And(a=pre10,b=rout[11],out=pre11);
+    And(a=pre11,b=rout[12],out=pre12);
+    And(a=pre12,b=rout[13],out=pre13);
+    And(a=pre13,b=rout[14],out=pre14);
+    And(a=pre14,b=rout[15],out=zr);
+}

@@ -1,0 +1,8 @@
+class Main{
+	function void main() {
+		var ggg g;
+		let g=ggg.new();
+		do g.zzz(0);
+		return;
+	}
+}

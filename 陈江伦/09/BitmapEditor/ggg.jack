@@ -1,0 +1,29 @@
+class ggg{
+	field int x,y;
+	constructor ggg new() {
+		let x=1;
+		let y=1;
+		return this;
+	}
+	method void zzz(int location) {
+	var int memAddress;
+	let memAddress = 16384+location;
+	do Memory.poke(memAddress+0, 0);
+	do Memory.poke(memAddress+32, 14336);
+	do Memory.poke(memAddress+64, 1024);
+	do Memory.poke(memAddress+96, 16);
+	do Memory.poke(memAddress+128, 0);
+	do Memory.poke(memAddress+160, 128);
+	do Memory.poke(memAddress+192, 1024);
+	do Memory.poke(memAddress+224, 4096);
+	do Memory.poke(memAddress+256, 1032);
+	do Memory.poke(memAddress+288, 8192);
+	do Memory.poke(memAddress+320, 16);
+	do Memory.poke(memAddress+352, 0);
+	do Memory.poke(memAddress+384, 8320);
+	do Memory.poke(memAddress+416, 0);
+	do Memory.poke(memAddress+448, 0);
+	do Memory.poke(memAddress+480, 0);
+	return;
+	}
+}

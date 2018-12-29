@@ -1,0 +1,6 @@
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\list.txt
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\Main.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\Main.xml
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\Main.xmlT
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\Main1.vm
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Average\table.txt

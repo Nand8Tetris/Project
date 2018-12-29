@@ -1,0 +1,10 @@
+CHIP chkneg {
+    IN  
+        w[16],no16[16];
+
+    OUT 
+        ng; // 1 if (out < 0),  0 otherwise
+
+    PARTS:
+    Xor(a=w[15],b=no16[15],out=ng);
+}

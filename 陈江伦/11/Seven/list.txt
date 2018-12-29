@@ -1,0 +1,3 @@
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Seven\list.txt
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Seven\Main.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Seven\Main1.vm

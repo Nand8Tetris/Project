@@ -1,0 +1,37 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/03/a/RAM8.hdl
+
+/**
+ * Memory of 8 registers, each 16 bit-wide. Out holds the value
+ * stored at the memory location specified by address. If load==1, then 
+ * the in value is loaded into the memory location specified by address 
+ * (the loaded value will be emitted to out from the next time step onward).
+ */
+
+CHIP RAM8 {
+    IN in[16], load, address[3];
+    OUT out[16];
+
+    PARTS:
+DFF16(in=outa,out=ina);
+DFF16(in=outb,out=inb);
+DFF16(in=outc,out=inc);
+DFF16(in=outd,out=ind);
+DFF16(in=oute,out=ine);
+DFF16(in=outf,out=inf);
+DFF16(in=outg,out=ing);
+DFF16(in=outh,out=inh);
+Mux8Way16(a=ina,b=inb,c=inc,d=ind,e=ine,f=inf,g=ing,h=inh,sel=address,out=out); 
+DMux8Way(in=load,sel=address,a=fa,b=fb,c=fc,d=fd,e=fe,f=ff,g=fg,h=fh);
+Mux16(a=ina,b=in,sel=fa,out=outa);
+Mux16(a=inb,b=in,sel=fb,out=outb);
+Mux16(a=inc,b=in,sel=fc,out=outc);
+Mux16(a=ind,b=in,sel=fd,out=outd);
+Mux16(a=ine,b=in,sel=fe,out=oute);
+Mux16(a=inf,b=in,sel=ff,out=outf);
+Mux16(a=ing,b=in,sel=fg,out=outg);
+Mux16(a=inh,b=in,sel=fh,out=outh);
+
+}

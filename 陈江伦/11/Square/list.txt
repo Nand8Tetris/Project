@@ -1,0 +1,7 @@
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\list.txt
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\Main.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\Main1.vm
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\Square.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\Square1.vm
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\SquareGame.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\Square\SquareGame1.vm

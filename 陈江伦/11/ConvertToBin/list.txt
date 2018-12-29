@@ -1,0 +1,3 @@
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\ConvertToBin\list.txt
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\ConvertToBin\Main.jack
+C:\Users\laofu\OneDrive\桌面\lesson\造计算机\nand2tetris\projects\11\ConvertToBin\Main1.vm

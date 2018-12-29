@@ -1,0 +1,5 @@
+class aaa{
+ function void go() {
+  let x = (a+b)*(c+(d+e))/(2-5);
+ }
+}
